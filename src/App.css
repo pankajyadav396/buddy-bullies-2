@@ -251,32 +251,6 @@ ul {
     padding-top: 60px;
 }
 
-.elips1 {
-    width: 100%;
-    width: 200px;
-    height: 337px;
-    border-radius: 337px;
-    background: #009DFF;
-    filter: blur(250px);
-    z-index: -1;
-    position: absolute;
-    top: 40%;
-    left: 27%;
-}
-
-.elips2 {
-    width: 100%;
-    width: 200px;
-    height: 337px;
-    border-radius: 337px;
-    background: #009DFF;
-    filter: blur(250px);
-    z-index: -1;
-    position: absolute;
-    bottom: -4%;
-    right: 0%;
-}
-
 .lh-136 {
     line-height: 136%;
 }
