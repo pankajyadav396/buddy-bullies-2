@@ -34,7 +34,7 @@ const Team = () => {
         </div>
     ))
     return (
-        <div className='bg-blue pt-5' id="team">
+        <div className='bg-blue pt-sm-5' id="team">
             <div className="container">
                 <h3 className="fs-xl1 fw-medium text-white lh-136 text-center mt-5 pb-5 ff-poppins ">Our Team</h3>
                 <div className="row">

@@ -7,7 +7,7 @@ const Header = () => {
         <div className='header-bg-img position-relative z-1 '>
             <div className="container">
                 <Navbar />
-                <div data-aos="fade-up-right" className="d-flex flex-column justify-content-center vh-100">
+                <div data-aos="fade-up-right" className="d-flex flex-column justify-content-center vh-sm-100 vhh-30">
                     <h1 className="mw-515 fs-xxl fw-normal pb-2 pb-md-4 text-white m-0 ff-poppins ">Vitae nunc,<span className="fw-bold"> blandit a odio </span></h1>
                     <p className="mw-408 lh-41 text-white fw-medium pb-3 pb-md-5 opcity-7 ff-poppins ">Semper in egestas risus id tempus. Pellentesque dolor eros sollicitudin
                         feugiat

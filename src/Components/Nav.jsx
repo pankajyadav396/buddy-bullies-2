@@ -1,5 +1,5 @@
 import React from 'react'
-
+import buddyimg from '../assets/images/bhoot-5.png'
 const Navbar = () => {
 
     function openNav() {
@@ -22,10 +22,11 @@ const Navbar = () => {
     }, 2000);
     return (
         <div className='overflow-hidden'>
-            <div id="preloader" className=' overflow-y-hidden  position-relative loader_bg '>
+            <div id="preloader" className='overflow-y-hidden position-relative loader_bg '>
                 <div class=" bg-black vh-100 d-flex align-items-center justify-content-center  position-fixed  top-0 start-0 w-100 ">
-                    <div class="d-flex align-items-center justify-content-center preloder-img ">
-                        <div class="loading-bar">Loading</div>
+                    <div class="d-flex flex-column align-items-center justify-content-center preloder-img">
+                        <img src={buddyimg} alt="oimage" className='img-loader mb-5 ' />
+                        <h1 className='fs-xll fw-bold text-white d-inline-blo'>Welcome</h1>
                     </div>
                 </div>
             </div>
