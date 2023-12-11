@@ -22,8 +22,8 @@ const Navbar = () => {
     }, 2000);
     return (
         <div className='overflow-hidden'>
-            <div id="preloader" className='overflow-y-hidden position-relative loader_bg '>
-                <div class=" bg-black vh-100 d-flex align-items-center justify-content-center  position-fixed  top-0 start-0 w-100 ">
+            <div id="preloader" className='overflow-y-hidden position-relative loader_bg z-10'>
+                <div class=" bg-black vh-100 d-flex align-items-center position-relative z-10 justify-content-center  position-fixed  top-0 start-0 w-100 ">
                     <div class="d-flex flex-column align-items-center justify-content-center preloder-img">
                         <img src={buddyimg} alt="oimage" className='img-loader mb-5 ' />
                         <h1 className='fs-xll fw-bold text-white d-inline-blo'>Welcome</h1>
